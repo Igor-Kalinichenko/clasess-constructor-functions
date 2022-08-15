@@ -6,7 +6,7 @@ class Auto{
         this.vinCode = vinCode;
     }
     log(){return `${this.carBrand} ${this.model} ${this.carYear}`;}
-    checkVin(){return this.vinCode.length === 16 ? true : false;}
+    checkVin(){return this.vinCode.length === 16;}
 }
 
 class Auto_Fuel extends Auto{
